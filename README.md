@@ -116,7 +116,7 @@ yarn install | pnpm install
 http://localhost:4000/
 
 <p align="center">
-  <a href="https://github.com/william-ribeiro/api-healthy-mind/blob/develop/Insomnia_api_collection.yaml" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://github.com/william-ribeiro/api-healthy-mind/blob/develop/colletion_insomnia.yaml" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
 ---

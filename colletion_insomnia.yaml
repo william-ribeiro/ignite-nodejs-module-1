@@ -1,0 +1,457 @@
+_type: export
+__export_format: 4
+__export_date: 2024-03-09T19:35:59.384Z
+__export_source: insomnia.desktop.app:v8.6.1
+resources:
+  - _id: req_0474fcb451de457796bdfd1a1ffe322d
+    parentId: fld_d55f4cbad06d43e5b26a894dadb13e74
+    modified: 1710007346768
+    created: 1710001032270
+    url: http://localhost:4002/tasks
+    name: Create Task
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"title": "remove",
+        	"description": "azul"
+        }
+    parameters: []
+    headers:
+      - name: application
+        value: DASHBOARD
+        description: ""
+        id: pair_33a6ff633c0e46c8a3e70e914ccdda7d
+        disabled: true
+      - name: Content-Type
+        value: application/json
+        id: pair_95a1869fe1c64f71abd1d08a9666753a
+        disabled: true
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiTUVNQkVSIiwic3ViIjoiYzBkNDRkMjMtYWQ5ZC00ZDRmLTkzNWItNGQwOTc0ZjJhMDRlIiwiaWF0IjoxNjkyNDk2MTc0LCJleHAiOjE2OTI5MjgxNzR9.250qbclotPp83QOy0SrNw_F8kmO-aeLoaqORZwWvWBI
+      disabled: true
+    metaSortKey: -1625244267476.0144
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_d55f4cbad06d43e5b26a894dadb13e74
+    parentId: wrk_63d7a5db49364017aa5ef820c00bfd6a
+    modified: 1710001032268
+    created: 1710001032268
+    name: desafio
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1625251008055.6982
+    _type: request_group
+  - _id: wrk_63d7a5db49364017aa5ef820c00bfd6a
+    parentId: null
+    modified: 1709515702794
+    created: 1709515702794
+    name: Ignite Nodejs 01
+    description: >-
+      ## Documentção Navedex's 
+
+
+      Abaixo segue organizado todas as rotas utilizada na aplicação para cadastro de usuários, navers e projects.
+    scope: collection
+    _type: workspace
+  - _id: req_69d17c0fbb034a20854c600e9585cc0d
+    parentId: fld_d55f4cbad06d43e5b26a894dadb13e74
+    modified: 1710008833195
+    created: 1710001032273
+    url: http://localhost:4002/tasks/04bc8bc9-ca74-458d-a01f-2430737ba016
+    name: Update Task
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          
+        	"description":"verdescricaooooooooooio"
+        }
+    parameters: []
+    headers:
+      - name: application
+        value: DASHBOARD
+        description: ""
+        id: pair_33a6ff633c0e46c8a3e70e914ccdda7d
+        disabled: true
+      - name: Content-Type
+        value: application/json
+        id: pair_95a1869fe1c64f71abd1d08a9666753a
+        disabled: true
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiTUVNQkVSIiwic3ViIjoiYzBkNDRkMjMtYWQ5ZC00ZDRmLTkzNWItNGQwOTc0ZjJhMDRlIiwiaWF0IjoxNjkyNDk2MTc0LCJleHAiOjE2OTI5MjgxNzR9.250qbclotPp83QOy0SrNw_F8kmO-aeLoaqORZwWvWBI
+      disabled: true
+    metaSortKey: -1625244256939.9978
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_4565d35955c7426a9ea378766c940f4d
+    parentId: fld_d55f4cbad06d43e5b26a894dadb13e74
+    modified: 1710009323911
+    created: 1710009109871
+    url: http://localhost:4002/tasks/04bc8bc9-ca74-458d-a01f-2430737ba016/complete
+    name: Complete Task
+    description: ""
+    method: PATCH
+    body: {}
+    parameters: []
+    headers:
+      - name: application
+        value: DASHBOARD
+        description: ""
+        id: pair_33a6ff633c0e46c8a3e70e914ccdda7d
+        disabled: true
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiTUVNQkVSIiwic3ViIjoiYzBkNDRkMjMtYWQ5ZC00ZDRmLTkzNWItNGQwOTc0ZjJhMDRlIiwiaWF0IjoxNjkyNDk2MTc0LCJleHAiOjE2OTI5MjgxNzR9.250qbclotPp83QOy0SrNw_F8kmO-aeLoaqORZwWvWBI
+      disabled: true
+    metaSortKey: -1625244251671.9895
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_4309c217e2204f479e69a394900b7c89
+    parentId: fld_d55f4cbad06d43e5b26a894dadb13e74
+    modified: 1710007919513
+    created: 1710001032271
+    url: http://localhost:4002/tasks
+    name: List Tasks
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - id: pair_58cbc53120944436b5bf9b542c7fe7f4
+        name: search
+        value: azul
+        description: ""
+        disabled: true
+      - id: pair_600db890e50d44f0b04cc7a0cd6be898
+        name: page
+        value: "2"
+        description: ""
+        disabled: true
+    headers:
+      - name: application
+        value: DASHBOARD
+        description: ""
+        id: pair_33a6ff633c0e46c8a3e70e914ccdda7d
+        disabled: true
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiTUVNQkVSIiwic3ViIjoiYzBkNDRkMjMtYWQ5ZC00ZDRmLTkzNWItNGQwOTc0ZjJhMDRlIiwiaWF0IjoxNjkyNDk2MTc0LCJleHAiOjE2OTI5MjgxNzR9.250qbclotPp83QOy0SrNw_F8kmO-aeLoaqORZwWvWBI
+      disabled: true
+    metaSortKey: -1625244246403.9812
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_2285d4fb65c54e7a952d804354656409
+    parentId: fld_d55f4cbad06d43e5b26a894dadb13e74
+    modified: 1710007941386
+    created: 1710001032272
+    url: http://localhost:4002/tasks/64c0dccd-f5b1-4a5a-8473-13030785635f
+    name: Delete Task
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers:
+      - name: application
+        value: DASHBOARD
+        description: ""
+        id: pair_33a6ff633c0e46c8a3e70e914ccdda7d
+        disabled: true
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiTUVNQkVSIiwic3ViIjoiYzBkNDRkMjMtYWQ5ZC00ZDRmLTkzNWItNGQwOTc0ZjJhMDRlIiwiaWF0IjoxNjkyNDk2MTc0LCJleHAiOjE2OTI5MjgxNzR9.250qbclotPp83QOy0SrNw_F8kmO-aeLoaqORZwWvWBI
+      disabled: true
+    metaSortKey: -1625244235867.9646
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_723b73ecb97947418c4c66eb008eb6bf
+    parentId: fld_d55f4cbad06d43e5b26a894dadb13e74
+    modified: 1710012188206
+    created: 1710011921331
+    url: http://localhost:4002/tasks/import
+    name: Import Tasks
+    description: ""
+    method: POST
+    body: {}
+    parameters:
+      - id: pair_58cbc53120944436b5bf9b542c7fe7f4
+        name: search
+        value: azul
+        description: ""
+        disabled: true
+      - id: pair_600db890e50d44f0b04cc7a0cd6be898
+        name: page
+        value: "2"
+        description: ""
+        disabled: true
+    headers:
+      - name: application
+        value: DASHBOARD
+        description: ""
+        id: pair_33a6ff633c0e46c8a3e70e914ccdda7d
+        disabled: true
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiTUVNQkVSIiwic3ViIjoiYzBkNDRkMjMtYWQ5ZC00ZDRmLTkzNWItNGQwOTc0ZjJhMDRlIiwiaWF0IjoxNjkyNDk2MTc0LCJleHAiOjE2OTI5MjgxNzR9.250qbclotPp83QOy0SrNw_F8kmO-aeLoaqORZwWvWBI
+      disabled: true
+    metaSortKey: -1625244235767.9646
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_e188bfadfc6e40d887383bbc49c33347
+    parentId: wrk_63d7a5db49364017aa5ef820c00bfd6a
+    modified: 1709515702795
+    created: 1709515702795
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: {}
+    color: null
+    isPrivate: false
+    metaSortKey: 1614795235821
+    _type: environment
+  - _id: jar_dc4fe0cf943548de8070decb393ec054
+    parentId: wrk_63d7a5db49364017aa5ef820c00bfd6a
+    modified: 1709515702802
+    created: 1709515702802
+    name: Default Jar
+    cookies:
+      - key: connect.sid
+        value: s%3AFCzqYBnM11WCCxclRzD5PGkwdznth8Rd.mc5jXzlAqNTb95PRs6JC%2Br0tYxfl5mZWINCrQdcMMOM
+        domain: localhost
+        path: /
+        httpOnly: true
+        hostOnly: true
+        creation: 2021-11-20T23:24:31.488Z
+        lastAccessed: 2022-03-18T01:08:03.337Z
+        id: "8458697404779387"
+      - key: connect.sid
+        value: s%3AlH8tolZxTOD6xMqPx_EC-hxgeFAEb0cr.Npv7UX27Mce5XCqQUjhKQolXCi%2FdNogjdNFfNzWNHQU
+        domain: accounts.google.com
+        path: /
+        httpOnly: true
+        hostOnly: true
+        creation: 2021-11-21T00:31:38.598Z
+        lastAccessed: 2021-11-21T00:31:38.598Z
+        id: "8874060420971106"
+      - key: __Host-GAPS
+        value: 1:caOrruSVPxejNouulMd4Jgcxz91NrA:rbcRmovHdXrrUuZi
+        expires: 2023-12-07T09:08:18.000Z
+        domain: accounts.google.com
+        path: /
+        secure: true
+        httpOnly: true
+        extensions:
+          - Priority=HIGH
+        hostOnly: true
+        creation: 2021-11-21T00:31:38.599Z
+        lastAccessed: 2021-12-07T09:08:19.130Z
+        id: "06307699322164395"
+      - key: connect.sid
+        value: s%3An_a7oFxGcf_TbeZjWhVERlC22qHjgJpi.q%2FqZSFqwJ3aJ0K1MGmFoi47sLvnkpLwzJlNhVU7Kf3A
+        domain: api-heelpy.herokuapp.com
+        path: /
+        httpOnly: true
+        hostOnly: true
+        creation: 2021-11-21T01:43:04.796Z
+        lastAccessed: 2022-03-18T01:14:08.120Z
+        id: "29859253739445846"
+      - key: GEM
+        value: CgptaW51dGVtYWlkEMG4mqHZLw==
+        domain: accounts.google.com
+        path: /
+        secure: true
+        httpOnly: true
+        hostOnly: true
+        creation: 2021-12-07T09:08:19.131Z
+        lastAccessed: 2021-12-07T09:08:19.131Z
+        id: "05972508486472128"
+      - key: __cf_bm
+        value: iJ2Bmad7YtLedYm3bWlYcg0M009eKy2U2KJ9a5Hh0C8-1689909207-0-AYa/SZWhrqkh7AMvhXCPkrefF5XhEwOv8aYg67sXwucPea29L34ewMU1lNcazIUUDcfwAmYVvAW8ZKBnXqlp2iM=
+        expires: 2023-07-21T03:43:27.000Z
+        domain: onrender.com
+        path: /
+        secure: true
+        httpOnly: true
+        extensions:
+          - SameSite=None
+        hostOnly: false
+        creation: 2023-05-09T22:07:44.782Z
+        lastAccessed: 2023-07-21T03:13:27.963Z
+        id: "008631140486931699"
+      - key: _cfuvid
+        value: IX8PKBWwbV5jlp.ny5E49n1ZA5aJQFHKYvPPGRb3JcE-1686087063282-0-604800000
+        domain: onrender.com
+        path: /
+        secure: true
+        httpOnly: true
+        extensions:
+          - SameSite=None
+        hostOnly: false
+        creation: 2023-05-09T22:07:44.782Z
+        lastAccessed: 2023-06-06T21:31:03.307Z
+        id: "9844961098723066"
+      - key: refreshToken
+        value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiTUVNQkVSIiwic3ViIjoiOWU4N2Y5MjktMTVkMS00NTRkLWEyNTUtNjlhNDIzYzdmZWRjIiwiaWF0IjoxNjgzOTUxMjI4LCJleHAiOjE2ODQzODMyMjh9.ldBVGBG7KKYUrCkhaRjiI_KBcQWjehjWXwjJQTDedCI
+        domain: localhost
+        path: /
+        httpOnly: true
+        extensions:
+          - SameSite=Strict
+        hostOnly: true
+        creation: 2023-05-13T04:13:48.675Z
+        lastAccessed: 2023-05-13T04:13:48.675Z
+        id: "1367472248165027"
+    _type: cookie_jar
+  - _id: spc_ffa6ccf9e59647848ab5c893fb61ec1d
+    parentId: wrk_63d7a5db49364017aa5ef820c00bfd6a
+    modified: 1709515702810
+    created: 1709515702802
+    fileName: Ignite Nodejs 01
+    contents: ""
+    contentType: yaml
+    _type: api_spec
+  - _id: env_4febc3a17cdb4d8480afc8dd4e6294c8
+    parentId: env_e188bfadfc6e40d887383bbc49c33347
+    modified: 1709515702795
+    created: 1709515702795
+    name: Production
+    data:
+      BASE_URL: http://localhost:3000
+    dataPropertyOrder:
+      "&":
+        - BASE_URL
+    color: "#ff0000"
+    isPrivate: false
+    metaSortKey: 1615000645494
+    _type: environment
+  - _id: env_6a8c73eda5ca4e848ad8ae72762ab743
+    parentId: env_e188bfadfc6e40d887383bbc49c33347
+    modified: 1709515702796
+    created: 1709515702796
+    name: Local
+    data:
+      BASE_URL: http://localhost:4848
+    dataPropertyOrder:
+      "&":
+        - BASE_URL
+    color: "#007bff"
+    isPrivate: false
+    metaSortKey: 1616032935812.5
+    _type: environment
+  - _id: env_db2116d39d124db793f233d51cc95ef9
+    parentId: env_e188bfadfc6e40d887383bbc49c33347
+    modified: 1709515702797
+    created: 1709515702797
+    name: MongoHeroku
+    data:
+      BASE_URL: https://codedropstotalzero.herokuapp.com
+    dataPropertyOrder:
+      "&":
+        - BASE_URL
+    color: "#66ff00"
+    isPrivate: false
+    metaSortKey: 1615516790653.25
+    _type: environment
+  - _id: env_080f015f9c2a45069949e035bab1dae9
+    parentId: env_e188bfadfc6e40d887383bbc49c33347
+    modified: 1709515702798
+    created: 1709515702798
+    name: PRod-render-homolog
+    data:
+      BASE_URL: https://api-heelpy-homolog.onrender.com
+    dataPropertyOrder:
+      "&":
+        - BASE_URL
+    color: "#ff0000"
+    isPrivate: false
+    metaSortKey: 1615129681783.8125
+    _type: environment
+  - _id: env_59ebd5ae10084f56bc5b8e66c1318395
+    parentId: env_e188bfadfc6e40d887383bbc49c33347
+    modified: 1709515702799
+    created: 1709515702799
+    name: HELLPY-V2
+    data:
+      BASE_URL: https://api-heelpy-v2-9mtv.onrender.com
+    dataPropertyOrder:
+      "&":
+        - BASE_URL
+    color: "#ff0000"
+    isPrivate: false
+    metaSortKey: 1615194199928.7188
+    _type: environment
+  - _id: env_51f9ddd25ad54f1e9e6ed33e3363377b
+    parentId: env_e188bfadfc6e40d887383bbc49c33347
+    modified: 1709515702800
+    created: 1709515702800
+    name: OFFLINE-serverless
+    data:
+      BASE_URL: https://api.sbrdigital.com.br
+    dataPropertyOrder:
+      "&":
+        - BASE_URL
+    color: "#0088ff"
+    isPrivate: false
+    metaSortKey: 1615032904566.4531
+    _type: environment
+  - _id: env_62fc1cf4dd024d6281e32375c980291d
+    parentId: env_e188bfadfc6e40d887383bbc49c33347
+    modified: 1709515702800
+    created: 1709515702800
+    name: PRODUCTION-serverless
+    data:
+      BASE_URL: https://api-login.sbrdigital.com.br
+    dataPropertyOrder:
+      "&":
+        - BASE_URL
+    color: "#ff0000"
+    isPrivate: false
+    metaSortKey: 1615049034102.6797
+    _type: environment
