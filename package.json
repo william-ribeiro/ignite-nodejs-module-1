@@ -1,12 +1,16 @@
 {
   "name": "desafio",
+  "type": "module",
   "version": "1.0.0",
   "description": "desafio do modulo 1 da formacao nodejs da rocketseat",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch src/server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.5.5"
+  }
 }
