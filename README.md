@@ -28,7 +28,7 @@
 
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> • 
+ <a href="#%EF%B8%8F-funcionalidades">Funcionalidades</a> • 
  <a href="#-regras-de-negocio">Regras de negócio</a> • 
  <a href="#-extras">Extras</a> •  
  <a href="#-autor">Autor</a> • 
