@@ -27,7 +27,7 @@
 </h4>
 
 <p align="center">
- <a href="##-sobre-o-desafio">Sobre</a> •
+ <a href="#-sobre-o-desafio">Sobre</a> •
  <a href="#%EF%B8%8F-funcionalidades">Funcionalidades</a> • 
  <a href="#-regras-de-negocio">Regras de negócio</a> • 
  <a href="#-extras">Extras</a> •  
